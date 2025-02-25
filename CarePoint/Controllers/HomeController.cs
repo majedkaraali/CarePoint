@@ -15,8 +15,14 @@ namespace CarePoint.Controllers
 
         public IActionResult Index()
         {
+
             return View();
         }
+
+        private readonly ApplicationDbContext _context;
+
+      
+
 
         public IActionResult Privacy()
         {
